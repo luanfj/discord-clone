@@ -71,7 +71,7 @@ export const Button = styled.div<Props>`
     background-color: var(--discord);
   }
 
-  &:hover::before {
+  &:hover::before, &.active::before {
     opacity: 1;
     height: 20px;
   }
